@@ -106,3 +106,5 @@ LOGGING = {
 
 # How much ram on each compute host?
 COMPUTE_HOST_RAM_GB = 16
+
+USER_LIST_LIMIT=5000

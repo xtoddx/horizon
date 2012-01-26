@@ -191,9 +191,10 @@ def token_create_scoped(request, tenant, token):
     return Token(scoped_token)
 
 
-def user_list(request, tenant_id=None):
+def user_list(request, tenant_id=None, limit=settings.USER_LIST_LIMIT):
     return [User(u) for u in
-            keystoneclient(request).users.list(tenant_id=tenant_id)]
+            keystoneclient(request).users.list(tenant_id=tenant_id,
+                                               limit=limit)]
 
 
 def user_create(request, user_id, email, password, tenant_id, enabled):
