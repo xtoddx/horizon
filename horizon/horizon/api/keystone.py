@@ -131,8 +131,9 @@ def tenant_delete(request, tenant_id):
     keystoneclient(request).tenants.delete(tenant_id)
 
 
-def tenant_list(request):
-    return [Tenant(t) for t in keystoneclient(request).tenants.list()]
+def tenant_list(request, limit=settings.TENANT_LIST_LIMIT):
+    return [Tenant(t) for t in keystoneclient(request).tenants.list(
+                                       limit=limit)]
 
 
 def tenant_update(request, tenant_id, tenant_name, description, enabled):

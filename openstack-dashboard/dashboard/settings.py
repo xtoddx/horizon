@@ -123,6 +123,9 @@ TOTAL_CLOUD_RAM_GB = 10
 OPENSTACK_KEYSTONE_DEFAULT_ROLE = 'Member'
 LIVE_SERVER_PORT = 8000
 
+USER_LIST_LIMIT=5000
+TENANT_LIST_LIMIT=5000
+
 try:
     from local.local_settings import *
 except Exception, e:
