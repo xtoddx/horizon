@@ -1,0 +1,42 @@
+openstack-dashboard (2011.3-final-rcb2) maverick; urgency=low
+
+  * add dep for python-quantum-client
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Wed, 16 Nov 2011 13:37:35 -0600
+
+openstack-dashboard (2011.3-final-rcb1) maverick; urgency=low
+
+  * import github.com/cloudbuilders/openstack-dashboard revision
+    90f51fc78b7a84c1f77deb81f31d5e86a9b6d29c
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 01 Nov 2011 15:36:03 -0500
+
+openstack-dashboard (2011.3-d5-rcb4) maverick; urgency=low
+
+  * Add x-rcb-component in preparation for essex-e0 drop
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Fri, 28 Oct 2011 09:37:55 -0500
+
+openstack-dashboard (2011.3-d5-rcb3) maverick; urgency=low
+
+  * Add dependency for django-openstack
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Wed, 28 Sep 2011 14:30:35 -0500
+
+openstack-dashboard (2011.3-d5-rcb2) natty; urgency=low
+
+  * add sites-available template
+  * add README.Debian
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 20 Sep 2011 14:32:48 -0500
+
+openstack-dashboard (2011.3-d5-rcb1) natty; urgency=low
+
+  * Updated upstream source from
+    https://github.com/cloudbuilders/openstack-dashboard.git, revision
+    76429135c9e2e67f020b5819c4104323abd4b788 Updated debian packaging
+    from https://github.com/rpedde/debians.git, revision
+    b4139ce7ad1e67e52605d4ff92204b1246f9b23c
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 13 Sep 2011 23:40:17 -0500
+
