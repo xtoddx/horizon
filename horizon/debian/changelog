@@ -1,0 +1,47 @@
+horizon (2011.3-final-rcb2) natty; urgency=low
+
+  * Codedrop 1/20/12, rename package to horizon
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 01 Nov 2011 10:54:41 -0500
+
+django-openstack (2011.3-final-rcb1) natty; urgency=low
+
+  * import 2011.3-final from github.com/cloudbuilders/openstack-dashboard.git
+    revision 90f51fc78b7a84c1f77deb81f31d5e86a9b6d29c
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 01 Nov 2011 10:54:41 -0500
+
+django-openstack (2011.3-d5-rcb4) natty; urgency=low
+
+  * Add XCBS-RCB-Component field in preparation for new essex-e0 drops
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Thu, 27 Oct 2011 16:38:10 -0500
+
+django-openstack (2011.3-d5-rcb3) natty; urgency=low
+
+  * fix problem with previous patch not being installed for authtoken to glance client
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Mon, 10 Oct 2011 17:46:19 -0500
+
+django-openstack (2011.3-d5-rcb2) maverick; urgency=low
+
+  * Added patch to provide authtoken to glance client
+
+ -- RCB Builder <rcbdeploy@lists.rackspace.com>  Tue, 27 Sep 2011 23:25:13 -0500
+
+django-openstack (2011.3-d5-rcb1) natty; urgency=low
+
+  * Updated upstream source from
+    https://github.com/cloudbuilders/openstack-dashboard.git, revision
+    76429135c9e2e67f020b5819c4104323abd4b788 Updated debian packaging
+    from https://github.com/rpedde/debians.git, revision
+    7bda39c57a3116b87ba1f56470537b06c3912ff5
+
+ -- root <build@syn-n04.lab>  Tue, 13 Sep 2011 23:40:49 -0500
+
+django-openstack (000-000-0000) maverick; urgency=low
+
+  * Initial Commit
+
+ -- root <root@packaging>  Tue, 19 Jul 2011 22:21:31 +0000
+
